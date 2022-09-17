@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+
+</head>
+<body>
+	<!-- Use get, not put -->
+	<form method="Get">
+		First Name : <input type="text" name ="fname"><br><br>
+
+		Last Name : <input type="text" name ="flname"><br><br>
+		Email : <input type="email" name="email" required><br><br>
+		Password : <input type="password"  name = "password" min="6"><br><br>
+		Birthday : <input type="date" name = "birthdate"><br><br>
+		Gender : <br>
+		<input type="radio" name = "Gender" value="Male">Male<br>
+		<input type="radio" name = "Gender" value="Female">Female<br>
+		<input type="radio" name = "Gender" value="Others">Other<br>
+		Cars :<br>
+		<select name="cars">
+			<option value="Volvo" name = "volvo">Volvo</option>
+			<option value="Audi" name = "audi">Audi</option>
+		</select><br><br>
+		<input type="submit" value = "Register!" >
+		<input type = "reset"><br><br>
+		<a href="index.html">Index Page</a><br><br>
+		<a href="newpage.html">New Page</a>
+
+	</form>
+
+</body>
+</html>
